@@ -152,7 +152,7 @@
                                 <i class="fa fa-home color-green-light ms-3 font-34 mt-1"></i>
                             </div>
                             <div class="align-self-center">
-                                <h5 class="ps-2 ms-1 mb-0" id="token-price">-</h5>
+                                <h5 class="ps-2 ms-1 mb-0" id="token-price" style="font-size: 18px;">-</h5>
                             </div>
                         </div>
                         <p class="px-3">
@@ -168,7 +168,7 @@
                                 <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
                             </div>
                             <div class="align-self-center">
-                                <h5 class="ps-2 ms-1 mb-0" id="dividends-distributed">-</h5>
+                                <h5 class="ps-2 ms-1 mb-0" id="dividends-distributed" style="font-size: 24px;">-</h5>
                             </div>
                         </div>
                         <p class="px-3">
@@ -187,7 +187,7 @@
                                 <i class="fa fa-home color-green-light ms-3 font-34 mt-1"></i>
                             </div>
                             <div class="align-self-center">
-                                <h5 class="ps-2 ms-1 mb-0" id="token-balance">0</h5>
+                                <h5 class="ps-2 ms-1 mb-0" id="token-balance" style="font-size: 18px;">0</h5>
                             </div>
                         </div>
                         <p class="px-3">
@@ -202,7 +202,7 @@
                                 <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
                             </div>
                             <div class="align-self-center">
-                                <h5 class="ps-2 ms-1 mb-0" id="dividends-payed">-</h5>
+                                <h5 class="ps-2 ms-1 mb-0" id="dividends-payed" style="font-size: 24px;">-</h5>
                             </div>
                         </div>
                         <p class="px-3">
@@ -235,11 +235,11 @@
                                 <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
                             </div>
                             <div class="align-self-center">
-                                <h5 class="ps-2 ms-1 mb-0">Time till your next automatic payment.</h5>
+                                <h5 class="ps-2 ms-1 mb-0">Time until next automatic payment.</h5>
                             </div>
                         </div>
                         <p class="px-3">
-                            <span>Consistant payouts depends on consitant trading volume.</span>
+                            <span>Dividends are paid automaticlly based on trading volume.</span>
                         </p>
                         <div class="progress">
                             <div id="auto-payment-bar" class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 0%"></div>
@@ -267,13 +267,8 @@
             <div class="row mb-0">
                 <div class="col-12 pe-0">
                     <div class="card mr-0 card-style">
-                        <div class="d-flex pt-3 pb-3">
-                            <div class="align-self-center">
-                                <i class="fa fa-home color-green-light ms-3 font-34 mt-1"></i>
-                            </div>
-                        </div>
-                        <p class="text-muted px-3">Last dividend received on <span id="last-payment">-</span></p>
-                        <p class="text-muted px-3">Pay-outs to holders may not occur every hour if trading volume is low. When this is the case, dividends for each holder will keep accummulating </p>
+                        <p class="text-muted px-3">Last BUSD payment was received on: <span id="last-payment">-</span></p>
+                        <p class="text-muted px-3">Payouts occur every hour, however if trading volume is low they accumliate until sent.</p>
                     </div>
                 </div>
             </div>
