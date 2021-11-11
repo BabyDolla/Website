@@ -104,55 +104,49 @@
             </div>
 
             <div class="card card-style shadow-xl">
+
                 <div class="content">
                     <div id="alert-error-https" class="row" style="display: none">
                         <br />
                         <div class="col-md-12">
                             <div class="alert alert-warning alert-dismissible">
-                                <h5><i class="icon fas fa-exclamation-triangle"></i> Alert!</h5>
-                                This dashboard is only available through a secure HTTPS connection. Check the url.
+                                <h5><i class="icon fas fa-exclamation-triangle"></i> Warrning!</h5>
+                                This application is only avalible on a secure browser. Make sure the url starts with https and try again.
                             </div>
                         </div>
                     </div>
+
                     <div id="prepare">
                         <br />
-                        <div class="row">
-                            <div class="card col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="description-block">
-                                            <img src="./img_baby/baby.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <br />
-                                        <h3>Welcome to BabyDolla dashboard!</h3>
-                                        <p>Connect your wallet to continue</p>
-                                        <button id="btn-connect" type="button" class="btn btn-block btn-primary btn-lg">
-                                            <i class="fas fa-bullseye"></i>
-                                            Connect wallet
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="align-self-center">
+                            <h5 class="ps-2 ms-1 mb-0">Welcome to the BabyDolla App!</h5>
                         </div>
+                        <p class="px-3">Connect with your wallet to view your Stats, Rewards, and more.</p>
+                        <button id="btn-connect" type="button" class="btn btn-block btn-primary btn-lg">
+                            <i class="fas fa-bullseye"></i>
+                            Connect wallet
+                        </button>
+
                     </div>
-
-
-
-
-
+                    
                     <div id="connected" style="display: none">
                         <div class="row">
                             <div id="button-bar" class="btn-group">
                                 <button id="btn-refresh" type="button" class="btn btn-default">
-                                    <i class="fa fa-undo"></i>
+                                    <i class="fa fa-undo"></i> Refresh
                                 </button>
                                 <button id="btn-disconnect" type="button" class="btn btn-default">
-                                    <i class="fa fa-times"></i>
+                                    <i class="fa fa-times"></i> Logout
                                 </button>
                             </div>
                         </div>
+
+
+
+
+
+                    
+                        
                         <br />
                         <div class="row">
                             <div class="card col-sm-12">
