@@ -105,12 +105,12 @@
 
             <div class="card card-style shadow-xl">
                 <div class="content">
-                
+
                     <div id="alert-error-https" class="row" style="display: none; text-align: center;">
                         <br />
                         <div class="col-md-12">
                             <div class="alert alert-warning alert-dismissible">
-                                <h5><i class="icon fas fa-exclamation-triangle color-orange-dark ms-3 font-34 mt-1" ></i> Warrning!</h5>
+                                <h5><i class="icon fas fa-exclamation-triangle color-orange-dark ms-3 font-34 mt-1"></i> Warrning!</h5>
                                 This application is only avalible on a secure browser. Make sure the url starts with https and try again.
                             </div>
                         </div>
@@ -126,9 +126,9 @@
                             Connect wallet
                         </button>
                     </div>
-                    
+
                     <div id="connected" style="display: none">
-                        <div class="row">
+                        <div class="row" style="text-align: center;">
                             <div id="button-bar" class="btn-group">
                                 <button id="btn-refresh" type="button" class="btn btn-block btn-primary btn-lg">
                                     <i class="fa fa-undo ms-3 font-24 mt-1"></i> Refresh
@@ -141,36 +141,38 @@
 
 
 
-
-
-                    
-                        
-                        <br />
-                        <div class="row">
-                            <div class="card col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="description-block">
-                                            <img src="./img_baby/baby.png" />
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="description-block">
-                                            <div class="display-3">
-                                                <strong id="dividends-distributed">-</strong>
-                                            </div>
-                                            <span class="description-text bg-warning">DIVIDENDS PAID TO HOLDERS</span>
-                                        </div>
-                                        <div class="description-block">
-                                            <div class="inner">
-                                                <h3 id="token-price">-</h3>
-                                                <span class="description-text bg-warning">Current price</span>
-                                            </div>
-                                        </div>
+                        <div class="row mb-0">
+                            <div class="card mr-0 card-style">
+                                <div class="d-flex pt-3 pb-3">
+                                    <div class="align-self-center">
+                                        <h5 class="ps-2 ms-1 mb-0" id="dividends-distributed">-</h5>
                                     </div>
                                 </div>
+                                <p class="px-3">
+                                    Total $BUSD paid to holders of BabyDolla so far.
+                                </p>
+                            </div>
+                            <div class="card ml-0 card-style">
+                                <div class="d-flex pt-3 pb-3">
+
+                                    <div class="align-self-center">
+                                        <h5 class="ps-2 ms-1 mb-0" id="token-price">-</h5>
+                                    </div>
+                                </div>
+                                <p class="px-3">
+                                    Last traded price for BabyDolla on PancakeSwap!
+                                </p>
                             </div>
                         </div>
+
+
+
+
+
+
+
+                        <br />
+
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="small-box card">
