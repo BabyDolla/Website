@@ -99,184 +99,256 @@
                 </div>
             </div>
         </div>
-        
-        
-        <body class="hold-transition layout-top-nav dark-mode">
-            <div class="wrapper">
-            <div class="content-wrapper" style="background: url(./img_baby/usdtfamily-bg.jpg); background-repeat: repeat;">
-            <div class="content">
-            <div class="container">
                 
         
-        <div id="alert-error-https" class="card card-style shadow-xl" style="display: none">        
+        <div class="card card-style shadow-xl">        
             <div class="content">
-                <p class="color-highlight font-600 mb-n1">Double check your connection to the site.</p>
-                <h1 class="font-24 font-700 mb-2"><i class="icon fas fa-exclamation-triangle"></i> Alert!</h1>
-                <p class="mb-1">
-                    This dashboard is only available through a secure HTTPS connection. Check the url.
-                </p>
-            </div>
-        </div> 
+                
+                
+                <body class="hold-transition layout-top-nav dark-mode">
+<div class="wrapper">
 
-        <div id="prepare">
-        <div class="card card-style shadow-xl" style="display: none">        
-            <div class="content">
-                <p class="color-highlight font-600 mb-n1">Connect Wallet</p>
-                <h1 class="font-24 font-700 mb-2">Welcome to the BabyDolla dashboard! <i class="fa fa-star mt-n2 font-30 color-yellow-dark float-end me-2 scale-box"></i></h1>
-                <p class="mb-1">
-                    Connect your wallet to view your current stats, rewards, and more.
-                </p>
-                <button id="btn-connect" type="button" class="btn btn-block btn-primary btn-lg">
-                    <i class="fas fa-bullseye"></i>
-                    Connect wallet
-                </button>
-            </div>
-        </div> 
-        
-         
+<div class="content-wrapper" style="background: url(./img_baby/usdtfamily-bg.jpg); background-repeat: repeat;">
+<div class="content">
+<div class="container">
+<div id="alert-error-https" class="row" style="display: none">
+<br />
+<div class="col-md-12">
+<div class="alert alert-warning alert-dismissible">
+<h5><i class="icon fas fa-exclamation-triangle"></i> Alert!</h5>
+This dashboard is only available through a secure HTTPS connection. Check the url.
+</div>
+</div>
+</div>
+<div id="prepare">
+<br />
+<div class="row">
+<div class="card col-sm-12">
+<div class="row">
+<div class="col-sm-6">
+<div class="description-block">
+<img src="./img_baby/baby.png" />
+</div>
+</div>
+<div class="col-sm-6">
+<br />
+<h3>Welcome to BabyDolla dashboard!</h3>
+<p>Connect your wallet to continue</p>
+<button id="btn-connect" type="button" class="btn btn-block btn-primary btn-lg">
+<i class="fas fa-bullseye"></i>
+Connect wallet
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-        <div id="connected" style="display: none">
-            
-            <div class="card card-full card-style">
-                <div class="content">
-                    <div id="button-bar" class="btn-group">
-                        <button id="btn-refresh" type="button" class="btn btn-default">
-                            <i class="fa fa-undo"> Refresh </i>
-                        </button>
-                        <button id="btn-disconnect" type="button" class="btn btn-default">
-                            <i class="fa fa-times"> Logout </i>
-                        </button>
+<div id="connected" style="display: none">
+<div class="row">
+<div id="button-bar" class="btn-group">
+<button id="btn-refresh" type="button" class="btn btn-default">
+<i class="fa fa-undo"></i>
+</button>
+<button id="btn-disconnect" type="button" class="btn btn-default">
+<i class="fa fa-times"></i>
+</button>
+</div>
+</div>
+<br />
+<div class="row">
+<div class="card col-sm-12">
+<div class="row">
+<div class="col-sm-6">
+<div class="description-block">
+<img src="./img_baby/baby.png" />
+</div>
+</div>
+<div class="col-sm-6">
+<div class="description-block">
+<div class="display-3">
+<strong id="dividends-distributed">-</strong>
+</div>
+<span class="description-text bg-warning">DIVIDENDS PAID TO HOLDERS</span>
+</div>
+<div class="description-block">
+<div class="inner">
+<h3 id="token-price">-</h3>
+<span class="description-text bg-warning">Current price</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </div>
+<div class="row">
+<div class="col-sm-12">
+<div class="small-box card">
+<div class="inner">
+<div class="row">
+<div class="col-sm-12">
+<h5 class="text-warning">BabyDolla contract <span class="text-white">0xaC784783054479ea14B96174eaa85C12b2DBFF3f</span></h5>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<h5 class="text-blue">USDT contract <span class="text-white">0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56</span></h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+
+<div class="small-box card bg-green">
+<div class="inner">
+<h3 id="token-balance">0</h3>
+<span class="description-text">Your token balance</span>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+
+<div class="small-box card bg-blue">
+<div class="inner">
+<h3><span id="dividends-payed">-</span></h3>
+<span class="description-text">Your dividends received</span>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card card-primary">
+<div class="card-body">
+<div class="row">
+<div class="col-md-4">
+<div class="info-box">
+<span class="info-box-icon bg-blue"><i class="fas fa-money-bill-wave"></i></span>
+<div class="info-box-content">
+<span class="info-box-text">Dividends for next payout</span>
+<span id="withdrawable-dividends" class="info-box-number">-</span>
+</div>
+
+</div>
+
+</div>
+<div class="col-md-4">
+<div class="info-box">
+<span class="info-box-icon bg-blue"><i class="fas fa-clock"></i></span>
+<div class="info-box-content">
+<span class="info-box-text">Automatic payment progress</span>
+<div class="progress">
+<div id="auto-payment-bar" class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 0%">
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+<div class="col-md-4">
+<div class="info-box">
+<div class="info-box-content">
+<button id="btn-claim" type="button" class="btn btn-block btn-primary btn-lg">
+<i class="fas fa-hand-holding-usd"></i>
+<span id="btn-claim-text">Claim my dividends</span>
+</button>
+</div>
+
+</div>
+ 
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p class="text-muted">Last dividend received on <span id="last-payment">-</span></p>
+<p class="text-muted">Pay-outs to holders may not occur every hour if trading volume is low. When this is the case, dividends for each holder will keep accummulating </p>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<br />
+<div class="row">
+<div class="col-md-12">
+<div class="card card-primary">
+<div class="card-body">
+<div class="row">
+<div class="col-md-6">
+<div class="small-box bg-info">
+<div class="inner">
+<h4><i class="fas fa-chart-bar"></i> Your current tokens earn</h4>
+<hr />
+<h3><span id="estimation-hour" class="text-warning">0</span> <small>hour</small></h3>
+<h3><span id="estimation-day" class="text-warning">0</span> <small>day</small></h3>
+<h3><span id="estimation-week" class="text-warning">0</span> <small>week</small></h3>
+<h3><span id="estimation-month" class="text-warning">0</span> <small>month</small></h3>
+<small>According to estimated daily volume and current prices</small>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-6">
+<div class="description-block">
+<img src="./img_baby/sticker.webp" width="50%" />
+</div>
+</div>
+
+</div>
+<div class="row">
+<div class="col-md-12">
+<label class="col-form-label" for="daily-volume-txt"><i class="fas fa-calculator"></i> Estimated volume 24h (in tokens)</label>
+<input id="daily-volume-txt" class="form-control" type="text" placeholder="Daily volume" value="20000000000">
+</div>
+</div>
+<br />
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+<form action="https://pancakeswap.finance/swap#/swap?outputCurrency=0xaC784783054479ea14B96174eaa85C12b2DBFF3f" method="get" target="_blank">
+<button type="submit" class="btn btn-block btn-primary btn-lg">
+<img src="./img_baby/pancake_web.png" width="32" alt="PancakeSwap" />
+Buy BabyDolla
+</button>
+</form>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="row mb-0">
-                <div class="card mr-0 card-style">
-                    <div class="d-flex pt-3 pb-3">
-                        <div class="align-self-center">
-                            <h5 id="token-price" class="ps-2 ms-1 mb-0">-</h5>
-                        </div>
-                    </div>
-                    <p class="px-3">
-                        Last traded price on PancakeSwap.<br/>
-                        BabyDolla Address: 0xaC784783054479ea14B96174eaa85C12b2DBFF3f
-                    </p>
-                </div>
-                <div class="card ml-0 card-style">
-                    <div class="d-flex pt-3 pb-3">
-                        <div class="align-self-center">
-                            <h5 id="dividends-distributed" class="ps-2 ms-1 mb-0">-</h5>
-                        </div>
-                    </div>
-                    <p class="px-3">
-                        Total dividends paid to holders so far!<br/>
-                        BUSD Address: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
-                    </p>
-                </div>
-            </div>
-            
-            <div class="row mb-0">
-                <div class="card mr-0 card-style">
-                    <div class="d-flex pt-3 pb-3">
-                        <div class="align-self-center">
-                            <h5 id="token-balance" class="ps-2 ms-1 mb-0">0</h5>
-                        </div>
-                    </div>
-                    <p class="px-3">
-                        Your avaliable BabyDolla balance.
-                    </p>
-                </div>
-                <div class="card ml-0 card-style">
-                    <div class="d-flex pt-3 pb-3">
-                        <div class="align-self-center">
-                            <h5 id="dividends-payed" class="ps-2 ms-1 mb-0">0</h5>
-                        </div>
-                    </div>
-                    <p class="px-3">
-                        Total BUSD dividends you have recieved.
-                    </p>
-                </div>
-            </div>
-            
-            <div class="card card-style">
-                <div class="d-flex pt-3 mt-1 mb-2 pb-2">
-                    <div class="align-self-center">
-                        <p class="ps-2 ms-1 color-highlight font-500 mb-n1 mt-n2">Reward Details</p>
-                        <h5 class="ps-2 ms-1 mb-0">Coming Soon</h5>
-                        
-                        <div class="col-md-4">
-                            <div class="info-box">
-                                <span class="info-box-icon bg-blue"><i class="fas fa-money-bill-wave"></i></span>
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Dividends for next payout</span>
-                                    <span id="withdrawable-dividends" class="info-box-number">-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="info-box">
-                                <span class="info-box-icon bg-blue"><i class="fas fa-clock"></i></span>
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Automatic payment progress</span>
-                                    <div class="progress">
-                                        <div id="auto-payment-bar" class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 0%">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="info-box">
-                                <div class="info-box-content">
-                                    <button id="btn-claim" type="button" class="btn btn-block btn-primary btn-lg">
-                                        <i class="fas fa-hand-holding-usd"></i>
-                                        <span id="btn-claim-text">Claim my dividends</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="text-muted">Last dividend received on <span id="last-payment">-</span></p>
-                                <p class="text-muted">BUSD dividend payouts may not happen every hour if trading volume is low. When this happens dividends per holder keep accumliating. </p>
-                            </div>
-                        </div>
-                        <h3 class="ps-2 ms-1 mb-0">BUSD Earns Caculator</h3>
-                        <div class="col-md-6">
-                            <div class="small-box bg-info">
-                                <div class="inner">
-                                    <h4><i class="fas fa-chart-bar"></i> Based on your currently token holdings</h4>
-                                    <hr />
-                                    <h3><span id="estimation-hour" class="text-warning">0</span> <small>per Hour</small></h3>
-                                    <h3><span id="estimation-day" class="text-warning">0</span> <small>per Day</small></h3>
-                                    <h3><span id="estimation-week" class="text-warning">0</span> <small>per Week</small></h3>
-                                    <h3><span id="estimation-month" class="text-warning">0</span> <small>per Month</small></h3>
-                                    <small>Based on estimated volume and current trading prices.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <label class="col-form-label" for="daily-volume-txt"><i class="fas fa-calculator"></i> Estimated 24 hour volume (in tokens)</label>
-                        <input id="daily-volume-txt" class="form-control" type="text" placeholder="Daily volume" value="20000000000">
-                        
-                        <form action="https://pancakeswap.finance/swap#/swap?outputCurrency=0xaC784783054479ea14B96174eaa85C12b2DBFF3f" method="get" target="_blank">
-                            <button type="submit" class="btn btn-block btn-primary btn-lg">
-                                <img src="./images/pancakeswap-icon.png" width="32" alt="PancakeSwap" />
-                                Buy BabyDolla
-                            </button>
-                        </form>
-                        
-                    </div>                           
-                </div>
-            </div>
-                
-        </div>
-        </div>
-                
-                </div>
-                </div>
-                </div>
-                </div>
                 </body>
+                
+                
+                
+                
+                
+                
+            </div>
+        </div> 
+
+
             
         <div class="row mb-0">
             <a href="#" class="col-6 pe-0">
