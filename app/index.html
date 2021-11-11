@@ -178,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row mb-0">
                 <div class="col-6 pe-0">
                     <div class="card mr-0 card-style">
@@ -212,70 +212,62 @@
                 </div>
             </div>
 
-
-
-
-
-
-
-            
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="card card-primary">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="info-box">
-                                        <span class="info-box-icon bg-blue"><i class="fas fa-money-bill-wave"></i></span>
-                                        <div class="info-box-content">
-                                            <span class="info-box-text">Dividends for next payout</span>
-                                            <span id="withdrawable-dividends" class="info-box-number">-</span>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="info-box">
-                                        <span class="info-box-icon bg-blue"><i class="fas fa-clock"></i></span>
-                                        <div class="info-box-content">
-                                            <span class="info-box-text">Automatic payment progress</span>
-                                            <div class="progress">
-                                                <div id="auto-payment-bar" class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 0%">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="info-box">
-                                        <div class="info-box-content">
-                                            <button id="btn-claim" type="button" class="btn btn-block btn-primary btn-lg">
-                                                <i class="fas fa-hand-holding-usd"></i>
-                                                <span id="btn-claim-text">Claim my dividends</span>
-                                            </button>
-                                        </div>
-
-                                    </div>
-
-                                </div>
+            <div class="row mb-0">
+                <div class="col-4 pe-0">
+                    <div class="card mr-0 card-style">
+                        <div class="d-flex pt-3 pb-3">
+                            <div class="align-self-center">
+                                <i class="fas fa-money-bill-wave color-green-light ms-3 font-34 mt-1"></i>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="text-muted">Last dividend received on <span id="last-payment">-</span></p>
-                                    <p class="text-muted">Pay-outs to holders may not occur every hour if trading volume is low. When this is the case, dividends for each holder will keep accummulating </p>
-                                </div>
+                            <div class="align-self-center">
+                                <h5 class="ps-2 ms-1 mb-0" id="withdrawable-dividends">-</h5>
                             </div>
                         </div>
-
+                        <p class="px-3">
+                            <span>Dividends avaliable for next payout.</span>
+                        </p>
                     </div>
-
                 </div>
+                <div class="col-4 ps-0">
+                    <div class="card ml-0 card-style">
+                        <div class="d-flex pt-3 pb-3">
+                            <div class="align-self-center">
+                                <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
+                            </div>
+                            <div class="align-self-center">
+                                <h5 class="ps-2 ms-1 mb-0">Time till your next automatic payment.</h5>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div id="auto-payment-bar" class="progress-bar bg-primary progress-bar-striped" role="progressbar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ps-0">
+                    <div class="card ml-0 card-style">
+                        <div class="d-flex pt-3 pb-3">
+                            <div class="align-self-center">
+                                <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
+                            </div>
 
+                        </div>
+                        <button id="btn-claim" type="button" class="btn btn-block btn-primary btn-lg">
+                            <i class="fas fa-hand-holding-usd"></i>
+                            <span id="btn-claim-text">Claim my dividends</span>
+                        </button>
+                    </div>
+                </div>
             </div>
+
+
+
+
+
+
+
+
+
+            
 
             <br />
             <div class="row">
