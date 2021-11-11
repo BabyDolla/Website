@@ -128,7 +128,7 @@
                     </div>
 
                     <div id="connected" style="display: none">
-                        <div class="row" style="text-align: center;">
+                        <div class="row" style="text-align: center; margin-top: 30px;">
                             <div id="button-bar" class="btn-group">
                                 <button id="btn-refresh" type="button" class="btn btn-block btn-primary btn-lg">
                                     <i class="fa fa-undo ms-3 font-24 mt-1"></i> Refresh
@@ -178,55 +178,48 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-            <br />
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="small-box card">
-                        <div class="inner">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h5 class="text-warning">BabyDolla contract <span class="text-white">0xaC784783054479ea14B96174eaa85C12b2DBFF3f</span></h5>
-                                </div>
+            
+            <div class="row mb-0">
+                <div class="col-6 pe-0">
+                    <div class="card mr-0 card-style">
+                        <div class="d-flex pt-3 pb-3">
+                            <div class="align-self-center">
+                                <i class="fa fa-home color-green-light ms-3 font-34 mt-1"></i>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h5 class="text-blue">USDT contract <span class="text-white">0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56</span></h5>
-                                </div>
+                            <div class="align-self-center">
+                                <h5 class="ps-2 ms-1 mb-0" id="token-balance">0</h5>
                             </div>
                         </div>
+                        <p class="px-3">
+                            Your avaliable Dolla token balance.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 ps-0">
+                    <div class="card ml-0 card-style">
+                        <div class="d-flex pt-3 pb-3">
+                            <div class="align-self-center">
+                                <i class="fa fa-cog color-blue-dark ms-3 font-34 mt-1"></i>
+                            </div>
+                            <div class="align-self-center">
+                                <h5 class="ps-2 ms-1 mb-0" id="dividends-payed">-</h5>
+                            </div>
+                        </div>
+                        <p class="px-3">
+                            Total amount of $BUSD you have received so far.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
 
-                    <div class="small-box card bg-green">
-                        <div class="inner">
-                            <h3 id="token-balance">0</h3>
-                            <span class="description-text">Your token balance</span>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-6">
 
-                    <div class="small-box card bg-blue">
-                        <div class="inner">
-                            <h3><span id="dividends-payed">-</span></h3>
-                            <span class="description-text">Your dividends received</span>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
+
+
+
+            
+            
             <div class="row">
                 <div class="col-md-12">
                     <div class="card card-primary">
