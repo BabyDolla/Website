@@ -1129,6 +1129,16 @@ body {
   color: #FFF;
 }
 
+.bg-telegram {
+  background-color: #0088cc !important;
+  color: #FFF;
+}
+
+.bg-tiktok {
+  background-color: #FE2C55 !important;
+  color: #FFF;
+}
+
 /*Default Colors*/
 .color-white {
   color: #FFF !important;
